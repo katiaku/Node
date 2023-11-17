@@ -222,7 +222,6 @@ function updateMovie(req, res) {
     res.send(result);
 }
 
-//TODO update actor
 function updateActorById(req, res) {
     let result;
     console.log(req.params);
